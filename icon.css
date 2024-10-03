@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+    }
+
+.icon{
+    transition: all 1s;
+}
+
+.icon1:hover{
+    color: white;
+    border-color: green;
+    background-color: green;
+    font-size: 1.2rem;
+}
+
+.icon2{
+    font-size: 2rem;
+}
+
+.icon2:hover{
+    color: #1778f2;
+    background-color: white;
+    font-size: 2.5rem;
+}
+
+.icon22{
+    font-size: 2rem;
+}
+
+.icon22:hover{
+    color: #1778f2;
+    font-size: 2.5rem;
+}
+
+
+.icon3:hover{
+    color: white;
+    background-color: black;
+}
+
+.icon4:hover{
+    font-size: 1.5rem;
+    border-color: rgba(237,2,242,0);
+    background: rgb(237,2,242);
+    background: linear-gradient(146deg, rgba(237,2,242,1) 0%, rgba(240,4,4,1) 62%, rgba(255,236,0,1) 100%);
+    color: white;
+}
+
+.icon5:hover{
+    font-size: 1.2rem;
+    color: rgb(255, 99, 71);
+    background-color: rgba(245, 245, 245, 0.5);
+    border-color: rgba(245, 245, 245, 0);
+}
+
+.icon6:hover{
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(40, 67, 135);
+    border-color: rgb(40, 67, 135);
+}
+
+.icon7:hover{
+    font-size: 1.2rem;
+    color: white;
+    background-color: #2AABEE;
+    border-color: #2AABEE;
+}
+
+.icon8:hover{
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(43 183 65);
+    border-color: rgb(43 183 65);
+}
+
+
+
