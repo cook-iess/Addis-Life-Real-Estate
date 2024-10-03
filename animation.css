@@ -1,0 +1,217 @@
+
+ @-webkit-keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .slide-in-right {
+	-webkit-animation: slide-in-right 1s ease-out 1s both;
+	        animation: slide-in-right 1s ease-out 1s both;
+}  
+
+
+ @-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+
+.slide-in-left {
+	-webkit-animation: slide-in-left 1s ease-out 1s both;
+	        animation: slide-in-left 1s ease-out 1s both;
+}
+
+
+ @-webkit-keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+.tracking-in-contract-bck-top {
+	-webkit-animation: tracking-in-contract-bck-top 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck-top 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.btn
+{
+    position: relative;
+    display: inline-flex;
+    padding: 10px 30px;
+    color: white;
+    border: 1px solid white;
+    border-top-left-radius:  50%;
+    overflow: hidden;
+}
+
+.btn span
+{
+  position: relative;
+  z-index: 1;
+}
+
+.btn::before
+{
+  content: '';
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: orange;
+  transition: width 1s, height 1s;
+}
+
+.btn:hover::before
+{
+  width: 300px;
+  height: 300px;
+}
+
+.btn1
+{
+    position: relative;
+    display: inline-flex;
+    padding: 10px 30px;
+    color: white;
+    background: orange;
+    overflow: hidden;
+}
+
+.btn1 span
+{
+  text-align: center;
+  width: 6rem;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.btn1::before
+{
+  content: '';
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  transform: translate(-50%, -50%);
+  width: 0;
+  color: white;
+  height: 0;
+  border-radius: 50%;
+  background: #023047;
+  transition: width 1s, height 1s;
+}
+
+.btn1:hover::before
+{
+  width: 300px;
+  height: 300px;
+  
+}
+
+.btn2
+{
+    position: relative;
+    display: inline-flex;
+    color: white;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.btn2 span
+{
+  text-align: center;
+  width: 6rem;
+  position: relative;
+  z-index: 1;
+}
+
+.btn2::before
+{
+  content: '';
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: white;
+  transition: width 1s, height 1s;
+}
+
+.btn2:hover::before
+{
+  width: 300px;
+  height: 300px;
+  
+}
