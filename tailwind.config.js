@@ -1,0 +1,45 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./public/**/*.{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#f79914",
+        secondary: "#023047",
+        pri: "#f79914",
+        sec: "#023047",
+        third: "rgba(2247, 153, 20,0.4)",
+        thirdd: "rgba(2247, 153, 20,0.8)",
+        primaryy: "rgba(2247, 153, 20,0.5)",
+        primaryyy: "rgba(2247, 153, 20,0.7)",
+        fourth: "rgba(2, 48, 71,0.8)",
+        fourthh: "rgba(2, 48, 71,0.3)",
+        fifth: "rgba(255,255,255,0.6)",
+        fifthh: "rgba(0,0,0,0.4)",
+        sixth: "rgba(255,255,255,0)",
+        seven: "rgba(2247, 153, 20,0.5)",
+        eight: "rgba(0,0,0,0.5)",
+        eightt: "rgba(0,0,0,0.7)",
+        tenth: "#005f92",
+        eleventh: "#00131d",
+        first: "#C2BBB2",
+        second: "#815537",
+        thi: "#ACA6B4",
+        thio: "#494E6F",
+        fou: "#75849F",
+        vr: "#652D80",
+      },
+      fontFamily: {
+        myfont: ["Nunito", "sans-serif"],
+        otfont: ["Nunito Sans", "sans-serif"],
+        cabin: ["Cabin Sketch", "cursive"],
+        lobster: ["Lobster Two", "cursive"],
+        normal: ["PT Serif", "serif"],
+        title: ["Abril Fatface", "serif"],
+        titlet: ["Alfa Slab One", "serif"],
+        titleo: ["Young Serif","serif"]
+      },
+    },
+  },
+  plugins: [],
+};
